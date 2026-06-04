@@ -21,7 +21,7 @@ The project is organized into a modular hierarchy:
 Screenshots demonstrating the functionality of the dashboard:
 
 **Initial View:**
-![Initial State](Weather Dashboard Initial View.png)
+![Initial State](Weather%20Dashboard%20Initial%20View.png)
 
 **Functional View (Data Loaded):**
 ![Weather Dashboard](delhi.png)
