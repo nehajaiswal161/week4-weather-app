@@ -1,0 +1,51 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+}
+/* Inputs & Buttons */
+input {
+    padding: 12px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+button {
+    padding: 12px 20px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #ff416c;
+}
+/* Weather Display Box */
+#weatherDisplay {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}

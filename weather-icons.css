@@ -1,0 +1,8 @@
+.weather-icon {
+    font-size: 50px;
+    margin: 10px 0;
+    display: block;
+}
+.sunny { color: #facc15; }
+.cloudy { color: #94a3b8; }
+.rainy { color: #3b82f6; }
