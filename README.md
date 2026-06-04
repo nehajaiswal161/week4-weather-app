@@ -38,19 +38,18 @@ Screenshots demonstrating the functionality of the dashboard:
 * Implemented `try-catch` blocks to handle errors like "City not found".
 
 ### 🏗️ Component Architecture
-The application follows a clean, modular class-based architecture to ensure separation of concerns and maintainable data flow:
-
-```mermaid
-graph TD
-    A[User Input] -->|Search City| B(app.js)
-    B -->|Fetch Request| C[WeatherService Class]
-    C -->|API Data| B
-    B -->|Update UI| D[UI Class]
-    B -->|Save Selection| E[Storage Class]
-    E -->|Persistent Data| F[(LocalStorage)]
-    D -->|Render Dashboard| G[Weather Dashboard Interface]
-
 The application follows a class-based modular architecture to ensure separation of concerns:
 * **WeatherService Class**: Handles asynchronous `fetch` calls.
 * **UI Class**: Dynamically updates the interface with fetched data.
 * **Storage Class**: Saves and retrieves the last searched location.
+  ![System Architecture](architecture.png)
+
+###👤 Developer Profile
+Name: Neha Jaiswal
+
+Program: BCA + MCA Dual Degree
+
+Institution: Amity University
+
+Technical Interests: Full-Stack Development
+
