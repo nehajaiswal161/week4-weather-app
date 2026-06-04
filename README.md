@@ -42,7 +42,7 @@ The application follows a class-based modular architecture to ensure separation 
 * **WeatherService Class**: Handles asynchronous `fetch` calls.
 * **UI Class**: Dynamically updates the interface with fetched data.
 * **Storage Class**: Saves and retrieves the last searched location.
-  ![System Architecture](architecture.png)
+  ![System Architecture](architecture.jpeg)
 
 ###👤 Developer Profile
 Name: Neha Jaiswal
